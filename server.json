@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.geminiomnirights/geminiomnirights-mcp",
-  "description": "Gemini Omni Rights Receipt is a hosted remote MCP for Gemini Omni commercial rights receipt MCP.",
+  "title": "Gemini Omni Rights Receipt MCP",
+  "description": "Paid remote MCP for Gemini Omni commercial rights receipt MCP, structured receipts, audit logs, and reviewer-ready evidence.",
   "version": "1.0.0",
-  "website_url": "https://geminiomnirights.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/gemini-omni-rights-receipt-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://geminiomnirights.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/gemini-omni-rights-receipt-mcp",
+  "serverCardUrl": "https://geminiomnirights.clauxel.com/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,16 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
   ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "Gemini Omni Rights Receipt MCP",
-      "server_card_url": "https://geminiomnirights.clauxel.com/server-card.json"
-    }
-  }
+  "tags": [
+    "gemini",
+    "omni",
+    "rights",
+    "receipt",
+    "commercial"
+  ]
 }
