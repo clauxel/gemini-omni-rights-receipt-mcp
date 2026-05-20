@@ -1,12 +1,15 @@
-# Gemini Omni Rights Receipt MCP
+# Gemini Omni Rights Receipt
 
-Paid remote MCP for Gemini Omni commercial rights receipt MCP, structured receipts, audit logs, and reviewer-ready evidence.
+Gemini Omni Rights Receipt is a hosted remote MCP for Gemini Omni commercial rights receipt MCP.
 
 Website: https://geminiomnirights.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: Gemini Omni commercial rights receipt MCP
+Type: MCP
+Default plan: team
 MCP endpoint: https://geminiomnirights.clauxel.com/mcp
 Server card: https://geminiomnirights.clauxel.com/server-card.json
-Docs: https://github.com/clauxel/gemini-omni-rights-receipt-mcp
-
-Use case: Gemini Omni commercial rights receipt MCP with structured receipts.
-Authentication: Bearer token required for production use.
+Registry name: com.clauxel.geminiomnirights/geminiomnirights-mcp
 Tools: check_video_rights, issue_rights_receipt, flag_missing_disclosure, summarize_asset_sources, export_client_receipts
+
+Public boundary: docs-only repository; no production source code or secrets.
